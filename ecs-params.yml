@@ -1,7 +1,7 @@
 version: 1
 task_definition:
   task_execution_role: ecsTaskExecutionRole
-  ecs_network_mode: bridge
+  ecs_network_mode: awsvpc
   task_size:
     mem_limit: 1GB
     cpu_limit: 256
@@ -10,6 +10,11 @@ run_params:
     awsvpc_configuration:
       # Replace with output of `ecs-cli up`
       subnets:
-        - "subnet-1234123412234"
+        - "subnet-yyyy"
+        - "subnet-yyyy"
+        - "subnet-yyyy"
+        - "subnet-yyyy"
       security_groups:
-        - "sg-123412341234"
+        - "sg-xxx"
+        - "sg-xxx"
+      assign_public_ip: DISABLED
