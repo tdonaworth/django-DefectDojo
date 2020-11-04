@@ -122,3 +122,5 @@ docker/certs/*
 # Helm dependencies
 helm/defectdojo/charts
 
+#ecs specific files
+ecs-params.hcqis.yml
