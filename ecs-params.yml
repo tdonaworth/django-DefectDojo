@@ -10,10 +10,6 @@ run_params:
     awsvpc_configuration:
       # Replace with output of `ecs-cli up`
       subnets:
-        - "subnet-0650249f95ad72750"
-        - "subnet-0a78de9dd696ff975"
-        - "subnet-00f8ac5369cce76ae"
-        - "subnet-091e6f9f9d035667c"
+        - "subnet-1234123412234"
       security_groups:
-        - "sg-0eeda9b800981a287"
-        - "sg-0db74670a240422b4"
+        - "sg-123412341234"
